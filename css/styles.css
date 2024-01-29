@@ -1,0 +1,70 @@
+.gradient-background {
+    background: linear-gradient(300deg, #e1f4e0, #0f4918, #0f0094);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.text-body-emphasis
+{
+    color: white!important;
+}
+.col-lg-4
+{
+    color: black;
+    text-align: justify;
+}
+.intro{
+  color: whitesmoke;
+  text-align: justify;
+}
+.form-label
+{
+  font-size:x-large;
+  font-weight:480;
+  color: #012466;
+}
+h3{
+  color: #012466;
+}
+.form-control
+{
+  font-size: larger;
+}
+.skills
+{
+  text-align: center;
+  font-weight: 500;
+}
+body
+{
+  background-color: white;
+}
+.btn{
+  margin-top: 50px;
+}
+.container1
+{
+  background: linear-gradient(300deg, #e1f4e0, #0f4918, #0f0094);
+  background-size: 100% 100%;
+  animation: gradient-animation 8s ease infinite;
+}
+.contact
+{
+  color:white;
+  font-size: larger;
+  font-weight: 400;
+}
+.bg{
+  background-image: url('blue moon.jpeg');
+}
